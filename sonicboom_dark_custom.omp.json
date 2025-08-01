@@ -60,7 +60,7 @@
           "type": "git"
         },
         {
-          "background": "#333333",
+          "background": "#3a3a3a",
           "foreground": "#d6d6d6",
           "properties": {
             "style": "dallas",
