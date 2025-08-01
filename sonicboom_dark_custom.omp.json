@@ -82,7 +82,7 @@
           "foreground": "#d6d6d6",
           "leading_diamond": "\ue0c5",
           "style": "diamond",
-          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }} <#1e1e1e>\ue0b3 </>{{ .HostName }}",
+          "template": "  {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }} <#1e1e1e>\ue0b3 </>{{ .HostName }}",
           "type": "session"
         },
         {
