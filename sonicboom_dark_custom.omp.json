@@ -41,7 +41,7 @@
           "foreground": "#d6d6d6",
           "properties": {
             "folder_icon": "\ue5fe",
-            "folder_separator_icon": " <#000000>\ue0bd </>",
+            "folder_separator_icon": " <#1e1e1e>\ue0bd </>",
             "home_icon": "\ueb06",
             "style": "agnoster_short"
           },
@@ -56,7 +56,7 @@
             "fetch_status": true
           },
           "style": "plain",
-          "template": "<#000000>\ue0b1 </>{{ .HEAD }}{{ if .Staging.Changed }}<#FF6F00> \uf046 {{ .Staging.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
+          "template": "<#1e1e1e>\ue0b1 </>{{ .HEAD }}{{ if .Staging.Changed }}<#FF6F00> \uf046 {{ .Staging.String }}</>{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
           "type": "git"
         },
         {
@@ -67,7 +67,7 @@
             "threshold": 0
           },
           "style": "diamond",
-          "template": "<#000000>\ue0b1 </>{{ .FormattedMs }}s ",
+          "template": "<#1e1e1e>\ue0b1 </>{{ .FormattedMs }}s ",
           "trailing_diamond": "\ue0b0",
           "type": "executiontime"
         }
@@ -82,7 +82,7 @@
           "foreground": "#d6d6d6",
           "leading_diamond": "\ue0c5",
           "style": "diamond",
-          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }} <#000000>\ue0b3 </>{{ .HostName }}",
+          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }} <#1e1e1e>\ue0b3 </>{{ .HostName }}",
           "type": "session"
         },
         {
@@ -92,7 +92,7 @@
             "time_format": "3:04:05 PM"
           },
           "style": "diamond",
-          "template": " <#000000>\ue0bd </>{{ .CurrentDate | date .Format }} ",
+          "template": " <#1e1e1e>\ue0bd </>{{ .CurrentDate | date .Format }} ",
           "type": "time"
         }
       ],
