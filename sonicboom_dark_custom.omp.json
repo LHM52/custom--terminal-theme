@@ -37,7 +37,7 @@
           "type": "os"
         },
         {
-          "background": "#333333",
+          "background": "#3a3a3a",
           "foreground": "#d6d6d6",
           "properties": {
             "folder_icon": "\ue5fe",
@@ -50,7 +50,7 @@
           "type": "path"
         },
         {
-          "background": "#333333",
+          "background": "#3a3a3a",
           "foreground": "#d6d6d6",
           "properties": {
             "fetch_status": true
@@ -78,7 +78,7 @@
       "alignment": "right",
       "segments": [
         {
-          "background": "#333333",
+          "background": "#3a3a3a",
           "foreground": "#d6d6d6",
           "leading_diamond": "\ue0c5",
           "style": "diamond",
@@ -86,7 +86,7 @@
           "type": "session"
         },
         {
-          "background": "#333333",
+          "background": "#3a3a3a",
           "foreground": "#d6d6d6",
           "properties": {
             "time_format": "3:04:05 PM"
